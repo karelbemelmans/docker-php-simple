@@ -4,8 +4,6 @@ This is an example Dockerfile that shows how to run a Docker container with the 
 
 Read more about it: http://php.net/manual/en/features.commandline.webserver.php
 
-In most use cases this is perfectly fine, there is no need of adding the overhead of an Apache webserver.
-
 ## Run the container
 
 docker run -p 8080:8080 -it karelbemelmans/php-simple
