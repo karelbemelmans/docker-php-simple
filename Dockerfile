@@ -1,5 +1,5 @@
 FROM php:7.1-cli
-MAINTAINER mail@karelbemelmans.com
+MAINTAINER Karel Bemelmans <mail@karelbemelmans.com>
 
 COPY src /var/www/html
 WORKDIR /var/www/html
